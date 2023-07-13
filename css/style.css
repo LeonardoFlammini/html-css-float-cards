@@ -9,15 +9,26 @@ html{
   font-family: 'Fredoka', sans-serif;
 }
 
+img{
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
 
 .container{
   width: 80%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
 .float-left{
   float: left;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* header  */
@@ -30,12 +41,47 @@ header{
 
 /* main  */
 
-main>section{
+main section:first-child{
   text-align: center;
   padding-bottom: 40px;
 }
 
-.box{
+main .member-team{
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.member-box{
   display: inline-block;
-  width: 100px;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+
+.member-box .info-box{
+  display: inline-block;
+  padding: 10px;
+}
+
+.member-box .info-box .member-name{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.member-box .info-box .member-role,
+.member-box .info-box .member-email{
+  font-size: 0.8rem;
+}
+
+.member-box .info-box .member-name,
+.member-box .info-box .member-role{
+  margin-bottom: 10px;
+}
+
+.member-box .info-box .member-email{
+  color: #48ACE6;
 }
