@@ -8,8 +8,34 @@
 html{
   font-family: 'Fredoka', sans-serif;
 }
+
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.float-left{
+  float: left;
+}
+
+/* header  */
+
 header{
   text-align: center;
   color: #E54971;
   padding: 40px;
+}
+
+/* main  */
+
+main>section{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.box{
+  display: inline-block;
+  width: 100px;
 }
