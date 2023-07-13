@@ -12,7 +12,6 @@ html{
 img{
   width: 100px;
   height: 100px;
-  margin-right: 10px;
 }
 
 .container{
@@ -84,4 +83,5 @@ main .member-team{
 
 .member-box .info-box .member-email{
   color: #48ACE6;
+  text-transform: lowercase;
 }
